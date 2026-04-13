@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayesha Gul | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h3>Ayesha Gul</h3>
+
+  <div class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </div>
+
+  <ul id="menu">
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+  
+  <!-- BACKGROUND VIDEO -->
+  <video autoplay muted loop playsinline class="bg-video">
+     <source src="download.mp4" type="video/mp4">
+  </video>
+
+  <!-- DARK OVERLAY -->
+  <div class="overlay"></div>
+
+  <!-- CONTENT -->
+  <div class="hero-content">
+    <h1>Ayesha Gul</h1>
+    <h2></h2>
+    <p>Graphic Designer | 4 Years Experience in Photoshop & Illustrator</p>
+    <a href="#work" class="btn">View My Work</a>
+  </div>
+
+</header>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I’m Ayesha Gul, a graphic designer with 4 years of professional experience specializing in Adobe Photoshop
+    and Adobe Illustrator. I focus on creating clean, modern, and visually striking designs that communicate
+    ideas clearly and leave a strong impact. My work is driven by creativity, attention to detail, and a passion
+    for turning concepts into engaging visual stories across digital and print media.
+  </p>
+</section>
+
+<!-- WORK -->
+<section id="work" class="portfolio">
+  <h2>My Work</h2>
+
+  <div class="grid">
+     <img src="1.jpeg" onclick="openImg(this.src)">
+    <img src="10.jpeg" onclick="openImg(this.src)">
+    <img src="11.jpeg" onclick="openImg(this.src)">
+    <img src="12.jpeg" onclick="openImg(this.src)">
+    <img src="13.jpeg" onclick="openImg(this.src)">
+    <img src="14.jpeg" onclick="openImg(this.src)">
+    <img src="15.png" onclick="openImg(this.src)">
+    <img src="16.png" onclick="openImg(this.src)">
+    <img src="18.png" onclick="openImg(this.src)">
+    <img src="19.png" onclick="openImg(this.src)">
+    <img src="2.jpeg" onclick="openImg(this.src)">
+    <img src="20.jpeg" onclick="openImg(this.src)">
+    <img src="21.jpeg" onclick="openImg(this.src)">
+    <img src="22.jpeg" onclick="openImg(this.src)">
+    <img src="23.jpeg" onclick="openImg(this.src)">
+    <img src="24.png" onclick="openImg(this.src)">
+    <img src="25.png" onclick="openImg(this.src)">
+    <img src="26.png" onclick="openImg(this.src)">
+    <img src="27.png" onclick="openImg(this.src)">
+    <img src="28.png" onclick="openImg(this.src)">
+    <img src="29.png" onclick="openImg(this.src)">
+    <img src="3.jpeg" onclick="openImg(this.src)">
+    <img src="30.png" onclick="openImg(this.src)">
+    <img src="31.png" onclick="openImg(this.src)">
+    <img src="4.jpeg" onclick="openImg(this.src)">
+    <img src="5.jpeg" onclick="openImg(this.src)">
+    <img src="6.jpeg" onclick="openImg(this.src)">
+    <img src="7.jpeg" onclick="openImg(this.src)">
+    <img src="8.jpeg" onclick="openImg(this.src)">
+    <img src="9.jpeg" onclick="openImg(this.src)">
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>Email: ayeshagul2715@email.com</p>
+  <p>Whatsapp: 0370 6250969</p>
+  <p>
+  Linkedin: 
+  <a href="https://www.linkedin.com/in/ayesha-gul-77661a324?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+    View My Profile
+  </a>
+</p>
+  <a href="Cv Ayesha Gul.pdf" target="_blank">
+  <button>Hire Me</button>
+</a>
+</section>
+
+<!-- LIGHTBOX -->
+<div id="lightbox" onclick="closeImg()">
+  <img id="lightbox-img">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
